@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Linking Bootstrap and jquery</title>
+ 
+  <link rel="stylesheet" href="/bootstrap.css/bootstrap-5.0.1-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Everything coded should go into this bootstrap -->
+   <center><div class="container">
+   <p class="title" id="counterTitle">Counter app</p>
+   <span id="value">0</span>
+   <!-- <span id="value">2</span> -->
+
+   <!-- button -->
+    <div class="container" >
+      <button class="btn decrease btn-success">Decrease</button>
+      <button class="btn reset btn-warning ">Reset</button>
+      <button class="btn increase btn-danger">increase</button>
+    </div>
+   </div>
+  </center>
+
+   <!-- Jquery library -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+   <script src="app.js"></script>
+</body>
+</html>
